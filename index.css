@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("src/images/plano-de-fundo.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 1rem;
+    width: 100%;
+}
+
+#logo-container {
+    text-align: center;
+    width: 100%;
+}
+
+.container img {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 45%;
+    background-color: white;
+    border-radius: 1rem;
+    
+}
+
+.rodape {
+    margin-top: 1rem;
+    background-color: black;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.services-container {
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 1.2rem;
+}
+
+.services p {
+    padding: 1rem;
+}
+
+.services img {
+    width: 50%;
+}
+
+.title {
+    background-color: gold;
+    color: black;
+}
+
+.text {
+    width: 60%;
+    margin-left: 20%;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
