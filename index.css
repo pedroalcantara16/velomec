@@ -40,10 +40,14 @@ html {
 .container img {
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 45%;
     background-color: white;
     border-radius: 1rem;
-    
+}
+
+@media only screen and (max-width: 480px) {
+    #logo-imagem {
+      width: 90%;
+    }
 }
 
 .rodape {
@@ -58,9 +62,9 @@ html {
 
 .services-container {
     text-align: center;
-    background: rgba(0,0,0,0.8);
-    color: white;
-    font-size: 2rem;
+    background: rgba(214,214,214,0.8);
+    color: black;
+    font-size: 2.5rem;
     width: 80%;
     margin-left: 10%;
     border-radius: 1.2rem;
@@ -74,15 +78,21 @@ html {
     width: 50%;
 }
 
+@media only screen and (max-width: 480px) {
+    .services img {
+      width: 80%;
+    }
+}
+
 .title {
-    background-color: gold;
+    background-color: #FF9203;
     color: black;
 }
 
 .text {
     width: 60%;
     margin-left: 20%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
     margin-bottom: 2rem;
 }
