@@ -15,7 +15,7 @@ html {
 
 .bg {
     /* The image used */
-    background-image: url("src/images/plano-de-fundo.jpg");
+    background-image: url("../src/images/plano-de-fundo.jpg");
 
     /* Full height */
     height: 100%;
@@ -25,6 +25,14 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.label{
+    border-radius: 1rem;
+    background-color: #343A40;
+    color: white;
+    font-size: 1.7rem;
+    font-style: initial;
 }
 
 .container {
