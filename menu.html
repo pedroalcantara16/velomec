@@ -36,11 +36,14 @@
         <br><br>
         <a class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; width: 70%" href="listar.html" target="_blank">Listar</a>
         <br><br>
-        <a class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; width: 70%" href="index.html" target="_blank">Sair</a>
+        <input type="button" value="Sair" class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; width: 70%" onclick="logout()">
     </div>
   </form>
-
 </div>
-
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+<script src="firebase/firebase-init.js"></script>
+<script src="scripts/logout.js"></script>
+<script src="scripts/auth-guard.js"></script>
 </body>
 </html>

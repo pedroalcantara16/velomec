@@ -39,26 +39,14 @@
         <input type="password" class="form-control" id="id-senha" placeholder="Senha" name="senha"><br>
       </div>
       <div style="text-align: center;">
-        <input type="submit" value="Cadastrar" class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; width: 70%"><a style="color: #F1040A;">
+        <input type="button" value="Acessar" id="btn-acessar" class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; width: 70%" onclick="logar()"/>
     </div>
     </form>
   </div>
   <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
-  <script>
-    const firebaseConfig = {
-    apiKey: "AIzaSyAi_-blh-CpkbLIBNcpSzuZjqlyVHtMpmA",
-    authDomain: "velomec-52c29.firebaseapp.com",
-    projectId: "velomec-52c29",
-    storageBucket: "velomec-52c29.appspot.com",
-    messagingSenderId: "483460654351",
-    appId: "1:483460654351:web:dc36eae7e893eee5380a7a"
-    };
-
-    firebase.initializeApp(firebaseConfig);
-
-    
-  </script>
+  <script src="firebase/firebase-init.js"></script>
+  <script src="scripts/login.js"></script>
 </body>
 </html>
 

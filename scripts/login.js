@@ -1,9 +1,25 @@
+
+firebase.auth().onAuthStateChanged(user => {
+  if(user){
+    window.location.href="../menu.html"
+  }
+});
+
+
 function logar(){
-    firebase.auth().signInWithEmailAndPassword("rogeriomecanico123@hotmail.com", "#ADMvelomec01").then(response =>{
-        console.log("success", response)
-    }).catch(error => {
-      console.log("error", error)
-    });
-    //window.location.href=""
+  let login = document.getElementById('id-usuario').value;
+  let senha = document.getElementById('id-senha').value; 
+  firebase.auth().signInWithEmailAndPassword(login, senha).then(response =>{
+    window.location.href="../menu.html"
+    //console.log("success", response)
+  }).catch(error => {
+    alert("Email ou senha incorretos!");
+    //console.log("error", error)
+  });
+  
+
 }
+
+
+
 
