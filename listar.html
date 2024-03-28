@@ -26,23 +26,26 @@
       </div>
       <br>
       <center>
-        <h1 style="text-align: center; color: black; background-color: #343A40; color: white;border-radius: 2cm;">Lista deClientes</h1>
+        <h1 style="text-align: center; color: black; background-color: #343A40; color: white;border-radius: 2cm;">Lista de Clientes</h1>
       </center>
-      <table class="table table-bordered table-dark" id="tabela">
+      <table class="table table-bordered table-dark text-center" id="tabela">
         <thead>
           <tr>
+            <th>Nome</th>
+            <th>Contato</th>
             <th>Placa</th>
-            <th>Fabricante</th>
-            <th>Modelo</th>
-            <th>Ano</th>
+            <th>Ações</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><input type="text" class="form-control" name="placa[]"></td>
-            <td><input type="text" class="form-control" name="fabricante[]"></td>
-            <td><input type="text" class="form-control" name="modelo[]"></td>
-            <td><input type="number" class="form-control" name="ano[]"></td>
+            <td><p>Pedro Vinícius Alcântara</p></td>
+            <td><p>87999347480</p></td>
+            <td><p>QQP5F16</p></td>
+            <td>
+              <input type="button" value="Atualizar" class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; max-width: 100%">
+              <input type="button" value="Excluir" class="btn btn-primary" style="background-color: white; color: #F1040A; font-weight: bold; max-width: 100%">
+            </td>
           </tr>
         </tbody>
       </table>

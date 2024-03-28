@@ -94,6 +94,17 @@ html {
     }
 }
 
+#tabela{
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #tabela {
+      
+      margin-left: -15px;
+    }
+}
+
 .title {
     background-color: #FF9203;
     color: black;
